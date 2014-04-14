@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'tui';
+  src: url('fonts/tuitype-webfont.eot');
+  src: url('fonts/tuitype-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/tuitype-webfont.woff') format('woff'), url('fonts/tuitype-webfont.svg#webfont') format('svg'), url('fonts/tuitype-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'droid-sans-reg';
+  src: url('fonts/DroidSans-webfont.eot');
+  src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/DroidSans-webfont.woff') format('woff'), url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg'), url('fonts/DroidSans-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'droid-sans-bold';
+  src: url('fonts/DroidSans-Bold-webfont.eot');
+  src: url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg'), url('fonts/DroidSans-Bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.button {
+  padding: 4px 50px;
+  font-family: "droid-sans-reg", Arial, sans-serif;
+  font-size: 12px;
+  border: 1px solid #2E7EA6;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #6ca5cb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #6ca5cb 0%, #568dae 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6ca5cb), color-stop(100%, #568dae));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #6ca5cb 0%, #568dae 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #6ca5cb 0%, #568dae 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #6ca5cb 0%, #568dae 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #6ca5cb 0%, #568dae 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ca5cb', endColorstr='#568dae', GradientType=0);
+  /* IE6-9 */
+}
+body {
+  font-family: "droid-sans-reg", Arial, sans-serif;
+}
+.heading {
+  font-family: "tui", Arial, sans-serif;
+}
+.bold,
+strong {
+  font-weight: normal;
+  font-family: "droid-sans-bold", Arial, sans-serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.text-center {
+  text-align: center;
+}
+.article-container {
+  width: 980px;
+  margin: 0 auto;
+  -moz-box-shadow: 0 0 10px #999;
+  -webkit-box-shadow: 0 0 10px #999;
+  box-shadow: 0 0 10px #999;
+  border: none;
+}
+.image-box {
+  width: 210px;
+  float: left;
+  padding: 15px;
+}
+.main-image {
+  background-color: #8EBCDD;
+  height: 118px;
+}
+.hotel-box {
+  width: 355px;
+  float: left;
+  padding: 15px 15px 15px 0;
+}
+.deal-box {
+  background-color: #f8efe4;
+  width: 338px;
+  float: left;
+  padding: 16px;
+}
+.deal-box li {
+  border-bottom: 1px dotted #cccccc;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.deal-box .section {
+  border-bottom: 1px dotted #cccccc;
+  padding: 10px 5px;
+}
+.deal-box .section-noborder {
+  border: none;
+  padding: 10px 5px;
+}
+.clearfix {
+  clear: both;
+}
